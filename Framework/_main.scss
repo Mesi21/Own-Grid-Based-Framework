@@ -149,9 +149,9 @@ code {
   @include mb(auto);
 }
 
-/* BORDER */
+
 [class~="border"] {
-  border: 1px solid bgcolor($color) !important;
+  border: 1px solid bgcolor(grey) !important;
 }
 
 [class~="no-border"] {

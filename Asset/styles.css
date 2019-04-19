@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+input[type="text"], input[type="email"], input[type="password"] {
+  min-width: 50px; }
+
+::-webkit-input-placeholder {
+  color: inherit; }
+
+:-ms-input-placeholder {
+  color: inherit; }
+
+::-ms-input-placeholder {
+  color: inherit; }
+
+::placeholder {
+  color: inherit; }
+
+a {
+  color: bgcolor("blue");
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+code {
+  color: bgcolor("black"); }
+
+.button {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px; }
+
+[class~="m"] {
+  margin: auto !important; }
+
+[class~="mx"] {
+  margin-left: auto !important;
+  margin-right: auto !important; }
+
+[class~="ml"] {
+  margin-left: auto !important; }
+
+[class~="mr"] {
+  margin-right: auto !important; }
+
+[class~="my"] {
+  margin-top: auto !important;
+  margin-bottom: auto !important; }
+
+[class~="mt"] {
+  margin-top: auto !important; }
+
+[class~="mb"] {
+  margin-bottom: auto !important; }
+
+[class~="border"] {
+  border: 1px solid bgcolor(grey) !important; }
+
+[class~="no-border"] {
+  border: 0 !important; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  font-family: -apple-system, 'avenir next', avenir, roboto, noto, ubuntu, 'helvetica neue', helvetica, arial, sans-serif;
+  box-sizing: border-box;
+  line-height: 2rem; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+h1, h2, h3 {
+  line-height: 4rem; }
+
+h4, h5, h6 {
+  line-height: 2rem; }
+
+h1 {
+  font-size: 2rem; }
+
+h2 {
+  font-size: 1.8rem; }
+
+h3 {
+  font-size: 1.6rem; }
+
+h4 {
+  font-size: 1.4rem; }
+
+h5 {
+  font-size: 1.2rem; }
+
+h6 {
+  font-size: 1rem; }
+
+p, ul, ol {
+  line-height: 2rem; }
+
+p {
+  margin: 0 0 2rem; }
+
+span {
+  line-height: 2rem; }
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+.clearfix:before, .clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+.clearfix:after {
+  clear: both; }
+
+.grid-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left; }
+
+.container {
+  max-width: 100%; }
+  .container:before, .container:after {
+    content: "";
+    display: table; }
+  .container:after {
+    clear: both; }
+  .container {
+    zoom: 1; }
+  .container .col {
+    width: 8.3333333333%; }
+  .container .col-2 {
+    width: 16.6666666667%; }
+  .container .col-3 {
+    width: 25%; }
+  .container .col-4 {
+    width: 33.3333333333%; }
+  .container .col-5 {
+    width: 41.6666666667%; }
+  .container .col-6 {
+    width: 50%; }
+  .container .col-7 {
+    width: 58.3333333333%; }
+  .container .col-8 {
+    width: 66.6666666667%; }
+  .container .col-9 {
+    width: 75%; }
+  .container .col-10 {
+    width: 83.3333333333%; }
+  .container .col-11 {
+    width: 91.6666666667%; }
+  .container .col-12 {
+    width: 100%; }
+
+  /*.container {
+  @include clearfix;
+  @include grid-unit(12);
+  float: none;
+  margin: 0 auto;
+}
+
+.main-content {
+  @include grid-unit(8);
+}
+
+.sidebar {
+  @include grid-unit(4);
+  margin-right: 0;
+}*/
+img {
+  width: 100px;
+  height: 100px; }
+
+/*# sourceMappingURL=styles.css.map */
