@@ -34,12 +34,14 @@ $gutter-width: 20px;
 .grid-item { 
   padding-left: 10px; 
   padding-right: 10px; 
-  float: left; } 
+  float: left;
+} 
 
 .container {
-    max-width: 100%; 
+    width: 100%; 
+    max-width: 100%;
     @include clearfix;
-    .col { 
+    .col-1 { 
       width: percentage(1/12);
     }
     .col-2 {
@@ -49,13 +51,13 @@ $gutter-width: 20px;
       width: percentage(3/12);
     }
     .col-4 { 
-      width: percentage(4/12);
+      width: percentage(4/12)
     }
     .col-5 { 
-      width: percentage(5/12);
+      width: percentage(5/12)
     }
     .col-6 { 
-      width: percentage(6/12);
+      width: percentage(6/12)
     }
     .col-7 { 
       width: percentage(7/12);
@@ -76,22 +78,3 @@ $gutter-width: 20px;
       width: percentage(12/12);
     }
 }
-
-
-
-
-  /*.container {
-  @include clearfix;
-  @include grid-unit(12);
-  float: none;
-  margin: 0 auto;
-}
-
-.main-content {
-  @include grid-unit(8);
-}
-
-.sidebar {
-  @include grid-unit(4);
-  margin-right: 0;
-}*/

@@ -3,6 +3,82 @@
 @import 'grid';
 
 img{
-    width: 100px;
+    width: 100%;
     height: 100px;
+}
+.d-flex {
+    display: flex !important;
+  }
+  
+  .d-block {
+    display: block !important;
+  }
+  
+  .d-inline {
+    display: inline !important;
+  }
+  
+  .d-inline-block {
+    display: inline-block !important;
+  }
+  .flex-start {    
+    justify-content: flex-start !important;
+  }
+  
+  .flex-end {    
+    justify-content: flex-end !important;
+  }
+  
+  .flex-center {
+    justify-content: center !important;
+  }
+  
+  .flex-space-around {
+    justify-content: space-around !important;
+  }
+  
+  .flex-space-between {
+    justify-content: space-between !important;
+  }
+  .rounded-circle {
+    border-radius: 50% !important;
+  }  
+  .flex-direction-column { 
+    flex-direction: column !important;
+  }
+  
+  .flex-direction-row { 
+    flex-direction: row !important;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  .font-weight-bold {
+    font-weight: bold;
+}
+.text-odin {
+    color: #ce973e;
+}
+.text-body {
+    color: rgba(74,74,74,0.7);
+}
+.text-title {
+    color: #4a4a4a;
+}
+.text-white {
+    color: white;
+}
+.btn {
+    border-radius: 3.2px;
+    box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+    
 }
