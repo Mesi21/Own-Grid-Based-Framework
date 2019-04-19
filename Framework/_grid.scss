@@ -1,0 +1,52 @@
+.clear{ 
+    clear: both; 
+    display: block; 
+    overflow: hidden; 
+    visibility: hidden; 
+    width: 0; 
+    height: 0;
+} 
+.clearfix:before, .clearfix:after { 
+    content: '\0020'; 
+    display: block; 
+    overflow: hidden; 
+    visibility: hidden; 
+    width: 0; 
+    height: 0; 
+} 
+.clearfix:after { 
+    clear: both;
+} 
+
+$column-width: 60px; 
+$gutter-width: 20px;
+@mixin grid-unit($span) {
+    float: left;
+    margin-right: $gutter-width;
+    width: ($column-width * $span) + ($gutter-width * ($span - 1));
+  }
+
+.container {
+// result = target / context
+    width: percentage(940px / 960px);  .main-content {
+    // This is nested inside of .container, so its context is 940px
+    width: percentage(620px / 940px);
+    }  .sidebar {
+    width: percentage(300px / 940px);
+    }
+}
+  /*.container {
+  @include clearfix;
+  @include grid-unit(12);
+  float: none;
+  margin: 0 auto;
+}
+
+.main-content {
+  @include grid-unit(8);
+}
+
+.sidebar {
+  @include grid-unit(4);
+  margin-right: 0;
+}*/

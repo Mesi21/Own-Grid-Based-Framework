@@ -112,6 +112,15 @@ code {
   @include bt($border);
   @include bb($border);
 }
+@mixin rounded-corners {
+  $rounded-corner-radius: 4px;
+  -webkit-border-radius: $rounded-corner-radius;
+  -moz-border-radius: $rounded-corner-radius;
+  -ms-border-radius: $rounded-corner-radius;
+  border-radius: $rounded-corner-radius;
+  }.button {
+   @include rounded-corners;
+}
 [class~="m"] {
   @include m(auto);
 }
@@ -141,11 +150,11 @@ code {
 }
 
 /* BORDER */
-.border {
+[class~="border"] {
   border: 1px solid bgcolor($color) !important;
 }
 
-.no-border {
+[class~="no-border"] {
   border: 0 !important;
 }
 html {
