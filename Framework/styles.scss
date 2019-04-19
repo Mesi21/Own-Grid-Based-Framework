@@ -33,11 +33,11 @@ img{
     justify-content: center !important;
   }
   
-  .flex-space-around {
+  .flex-around {
     justify-content: space-around !important;
   }
   
-  .flex-space-between {
+[class~="flex-between"] {
     justify-content: space-between !important;
   }
   .rounded-circle {
