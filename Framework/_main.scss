@@ -1,0 +1,206 @@
+input[type="text"], input[type="email"], input[type="password"] {
+    min-width: 50px;
+  }
+::-webkit-input-placeholder {
+  color: inherit;
+}
+:-ms-input-placeholder {
+  color: inherit;
+}
+::-ms-input-placeholder{
+  color: inherit;
+}
+::placeholder {
+  color: inherit;
+}
+a {
+  color: bgcolor("blue");
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+code {
+  color: bgcolor("black");
+}
+@mixin m($margin) {
+  margin: $margin !important;
+}
+
+@mixin ml($margin) {
+  margin-left: $margin !important;
+}
+
+@mixin mr($margin) {
+  margin-right: $margin !important;
+}
+
+@mixin mt($margin) {
+  margin-top: $margin !important;
+}
+
+@mixin mb($margin) {
+  margin-bottom: $margin !important;
+}
+
+@mixin mx($margin) {
+  @include ml($margin);
+  @include mr($margin);
+}
+
+@mixin my($margin) {
+  @include mt($margin);
+  @include mb($margin);
+}
+
+@mixin p($padding) {
+  padding: $padding !important;
+}
+
+@mixin pl($padding) {
+  padding-left: $padding !important;
+}
+
+@mixin pr($padding) {
+  padding-right: $padding !important;
+}
+
+@mixin pt($padding) {
+  padding-top: $padding !important;
+}
+
+@mixin pb($padding) {
+  padding-bottom: $padding !important;
+}
+
+@mixin px($padding) {
+  @include pl($padding);
+  @include pr($padding);
+}
+
+@mixin py($padding) {
+  @include pt($padding);
+  @include pb($padding);
+}
+
+@mixin b($border) {
+  border: $border solid bgcolor("silver") !important;
+}
+
+@mixin bl($border) {
+  border-left: $border solid bgcolor("silver") !important;
+}
+
+@mixin br($border) {
+  border-right: $border solid bgcolor("silver") !important;
+}
+
+@mixin bt($border) {
+  border-top: $border solid bgcolor("silver") !important;
+}
+
+@mixin bb($border) {
+  border-bottom: $border solid bgcolor("silver") !important;
+}
+
+@mixin bx($border) {
+  @include bl($border);
+  @include br($border);
+}
+
+@mixin by($border) {
+  @include bt($border);
+  @include bb($border);
+}
+[class~="m"] {
+  @include m(auto);
+}
+
+[class~="mx"] {
+  @include mx(auto);
+}
+
+[class~="ml"] {
+  @include ml(auto);
+}
+
+[class~="mr"] {
+  @include mr(auto);
+}
+
+[class~="my"] {
+  @include my(auto);
+}
+
+[class~="mt"] {
+  @include mt(auto);
+}
+
+[class~="mb"] {
+  @include mb(auto);
+}
+
+/* BORDER */
+.border {
+  border: 1px solid bgcolor($color) !important;
+}
+
+.no-border {
+  border: 0 !important;
+}
+html {
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  font-family: -apple-system, 'avenir next', avenir, roboto, noto, ubuntu, 'helvetica neue', helvetica, arial, sans-serif;
+  box-sizing: border-box;
+  line-height: 2rem;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+h1, h2, h3 {  
+  line-height: 4rem;
+}
+
+h4, h5, h6 {
+  line-height: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1rem;  
+}
+
+p, ul, ol {
+  line-height: 2rem;
+}
+p {
+  margin: 0 0 2rem;
+}
+
+span {
+  line-height: 2rem;
+}
+
+
+  

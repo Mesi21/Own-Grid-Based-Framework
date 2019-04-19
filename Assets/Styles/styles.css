@@ -1,0 +1,17 @@
+[class~="text-bold"] {
+    font-weight: bold;
+}
+[class~="d-fl"] {
+    display: flex;
+}
+[class~="direction-row"] {
+    flex-direction: row;
+}
+[class~="direction-column"] {
+    flex-direction: column;
+}
+[class~="d-block"] {
+    display: block;
+}
+
+
