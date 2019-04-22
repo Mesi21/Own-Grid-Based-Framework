@@ -913,28 +913,36 @@ span {
   .container {
     zoom: 1; }
   .container .col-1 {
-    width: 8.3333333333%; }
+    width: 6.25%; }
   .container .col-2 {
-    width: 16.6666666667%; }
+    width: 12.5%; }
   .container .col-3 {
-    width: 25%; }
+    width: 18.75%; }
   .container .col-4 {
-    width: 33.3333333333%; }
+    width: 25%; }
   .container .col-5 {
-    width: 41.6666666667%; }
+    width: 31.25%; }
   .container .col-6 {
-    width: 50%; }
+    width: 37.5%; }
   .container .col-7 {
-    width: 58.3333333333%; }
+    width: 43.75%; }
   .container .col-8 {
-    width: 66.6666666667%; }
+    width: 50%; }
   .container .col-9 {
-    width: 75%; }
+    width: 56.25%; }
   .container .col-10 {
-    width: 83.3333333333%; }
+    width: 62.5%; }
   .container .col-11 {
-    width: 91.6666666667%; }
+    width: 68.75%; }
   .container .col-12 {
+    width: 75%; }
+  .container .col-13 {
+    width: 81.25%; }
+  .container .col-14 {
+    width: 87.5%; }
+  .container .col-15 {
+    width: 93.75%; }
+  .container .col-16 {
     width: 100%; }
 
 img {
@@ -962,10 +970,10 @@ img {
 .flex-center {
   justify-content: center !important; }
 
-.flex-space-around {
+.flex-around {
   justify-content: space-around !important; }
 
-.flex-space-between {
+[class~="flex-between"] {
   justify-content: space-between !important; }
 
 .rounded-circle {
@@ -993,7 +1001,7 @@ img {
   color: #ce973e; }
 
 .text-body {
-  color: rgba(74, 74, 74, 0.7); }
+  color: #454545; }
 
 .text-title {
   color: #4a4a4a; }
@@ -1004,5 +1012,42 @@ img {
 .btn {
   border-radius: 3.2px;
   box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5); }
+
+.header {
+  background: url("../Asset/img/bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px; }
+
+.left img {
+  height: 50px;
+  width: 160px;
+  margin-left: 20px;
+  margin-top: 20px; }
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column; }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 30px; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1; }
+
+.right {
+  float: right;
+  margin-right: 40px;
+  margin-top: 30px; }
+
+.left {
+  float: left; }
 
 /*# sourceMappingURL=styles.css.map */
