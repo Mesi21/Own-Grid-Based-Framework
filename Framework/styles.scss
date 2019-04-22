@@ -37,7 +37,7 @@ img{
     justify-content: space-around !important;
   }
   
-[class~="flex-between"] {
+  .flex-between {
     justify-content: space-between !important;
   }
   .rounded-circle {
@@ -49,6 +49,10 @@ img{
   
   .flex-direction-row { 
     flex-direction: row !important;
+  }
+
+  .align-center {
+    align-items: center;
   }
 
   .text-center {
@@ -102,7 +106,12 @@ img{
   position: relative;
   display: inline-block;
   margin-right: 30px;
-  font-size: 50px;
+  margin-left: 35px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.dropdown a:hover {
+  text-decoration: none;
 }
 .dropdown-content {
   display: none;
@@ -119,4 +128,49 @@ img{
 }
 .left {
   float: left;
+  margin-bottom: 150px;
+}
+.title {
+  clear: both;
+
+}
+.title p {
+  height: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.title h1 {
+  height: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+.blue.d-flex.flex-direction-row {
+  background: linear-gradient(to bottom, #1492e5 12%, #1550a2 100%);
+  border-bottom-right-radius: 200px;
+  border-top-left-radius: 200px;
+  margin: 150px auto 0px auto;
+  width: 90%;
+  height: 260px;
+}
+.blue-column.d-flex.flex-direction-column {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+.blue-column.d-flex.flex-direction-column h1 {
+  font-size: 24px;
+  line-height: 1.2;
+}
+.blue-column.d-flex.flex-direction-column p {
+  width: 250px;
+  max-width: 90%;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.9em;
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+}
+.blue.d-flex.flex-direction-row.flex-around i {
+  margin-top: 120px;
 }
