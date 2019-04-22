@@ -1104,4 +1104,34 @@ img {
 .blue.d-flex.flex-direction-row.flex-around i {
   margin-top: 120px; }
 
+.vertical {
+  width: 3px;
+  height: 70%;
+  margin: 0px;
+  margin-top: 40px;
+  color: #fff;
+  opacity: 0.3; }
+
+.blue-column.d-flex.flex-direction-row.first {
+  margin-left: 150px;
+  margin-top: 20px; }
+
+.blue-column.d-flex.flex-direction-row.second {
+  margin-right: 150px;
+  margin-top: 20px; }
+
+.container {
+  width: 45%;
+  margin: auto; }
+
+.blue-header {
+  color: #278EE0;
+  margin-top: 50px;
+  font-size: 28px; }
+
+.container p {
+  text-align: justify;
+  color: #454545;
+  font-size: 14px; }
+
 /*# sourceMappingURL=styles.css.map */
