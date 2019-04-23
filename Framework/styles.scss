@@ -204,3 +204,10 @@ img{
   color: #454545;
   font-size: 14px;
 }
+.ghj {
+  height: 300px;
+  background: -webkit-linear-gradient(to right, #1492e5 0%, #1550a2 100%); /* Chrome10+, Safari5.1+ */ 
+  background: -moz-linear-gradient(to right, #1492e5 0%, #1550a2 100%); /* FF3.6+ */ 
+  background: linear-gradient(to right, #1492e5 0%, #1550a2 100%); /* W3C */ 
+  width: 100%;
+}
