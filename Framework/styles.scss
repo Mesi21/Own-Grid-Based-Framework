@@ -85,6 +85,9 @@ img{
     border-radius: 3.2px;
     box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);   
 }
+a:hover {
+  text-decoration: none;
+}
 .header {
   background: url("../Asset/img/bg-img.jpg");
   background-repeat: no-repeat;
@@ -190,18 +193,15 @@ img{
   margin-right: 150px;
   margin-top: 20px;
 }
-.container{
-  width: 45%;
-  margin: auto;
-}
 .blue-header{
   color:  #278EE0;
   margin-top: 50px;
   font-size: 28px;
 }
-.container p{
+.container-two p{
+  width: 45%;
+  margin: auto;
   text-align: justify;
-  color: #454545;
   font-size: 14px;
 }
 .app {
@@ -212,7 +212,7 @@ img{
   width: 100%;
   padding-left: 100px;
 }
-.app button {
+.app button, .use-dash button {
   background-color: transparent;
   font-family: "Montserrat", sans-serif;
   border-radius: 8px;
@@ -250,9 +250,6 @@ img{
 .text-white.text-left{
   margin-left: 40px;
 }
-.third-container{
-  height: 320px;
-}
 .third{
   width: 50%;
 }
@@ -268,4 +265,22 @@ img{
 }
 .third-container.d-flex.flex-direction-row{
   background-color: #E0F1FC;
+  height: 480px;
+}
+.use-dash {
+  background: linear-gradient(to right, #1492e5 0%, #1550a2 100%);
+  width: 100%;
+}
+.use-dash h1{
+  font-weight: 500;
+  font-size: 28px;
+}
+.use-dash p{
+  font-size: 16px;
+}
+.use-dash-left {
+  width: 50%;
+}
+.services{
+  width: 50%;
 }
