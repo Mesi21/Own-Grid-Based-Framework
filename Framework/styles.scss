@@ -204,10 +204,36 @@ img{
   color: #454545;
   font-size: 14px;
 }
-.ghj {
-  height: 300px;
+.app {
+  height: 500px;
   background: -webkit-linear-gradient(to right, #1492e5 0%, #1550a2 100%); /* Chrome10+, Safari5.1+ */ 
   background: -moz-linear-gradient(to right, #1492e5 0%, #1550a2 100%); /* FF3.6+ */ 
   background: linear-gradient(to right, #1492e5 0%, #1550a2 100%); /* W3C */ 
   width: 100%;
+}
+.app button {
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  text-align: center;
+  height: 38px;
+  min-width: 200px;
+}
+.app a {
+  font-weight: 500;
+  text-decoration: none;
+}
+.downloads div h5 {
+  font-size: 14px;
+}
+.downloads div p {
+  line-height: 1.5;
+  font-size: 14px;
+}
+.cell-phone img {
+  height: 500px;
+  max-width: 100%;
+  width: 450px;
+
 }
