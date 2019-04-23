@@ -1013,7 +1013,7 @@ img {
 a:hover {
   text-decoration: none; }
 
-.header {
+.main {
   background: url("../Asset/img/bg-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1139,7 +1139,7 @@ a:hover {
   width: 100%;
   padding-left: 100px; }
 
-.app button, .use-dash button {
+.app button, .use-dash button, .map button, .footer-top button {
   background-color: transparent;
   font-family: "Montserrat", sans-serif;
   border-radius: 8px;
@@ -1210,5 +1210,34 @@ a:hover {
 
 .services {
   width: 50%; }
+
+.fourth {
+  width: 90%;
+  height: 259px;
+  margin: auto; }
+
+.map {
+  background: -webkit-linear-gradient(to bottom, #134495 0%, #07215e 100%);
+  /* Chrome10+, Safari5.1+ */
+  background: -moz-linear-gradient(to bottom, #134495 0%, #07215e 100%);
+  /* FF3.6+ */
+  background: linear-gradient(to bottom, #134495 0%, #07215e 100%);
+  /* W3C */ }
+
+.footer-top {
+  font-size: 14px;
+  font-weight: 400;
+  height: 499px;
+  background: -moz-radial-gradient(center, ellipse cover, #134393 0%, #0a2b69 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #134393 0%, #0a2b69 100%);
+  background: radial-gradient(ellipse at center, #134393 0%, #0a2b69 100%); }
+
+.grid-item {
+  border: 2px solid red; }
+
+body > div > div.footer-top.text-white > div > div:nth-child(5) {
+  width: 100%;
+  margin: 0px;
+  padding: 0px; }
 
 /*# sourceMappingURL=styles.css.map */
