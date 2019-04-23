@@ -900,7 +900,8 @@ span {
 .grid-item {
   padding-left: 10px;
   padding-right: 10px;
-  float: left; }
+  float: left;
+  width: 100%; }
 
 .container {
   width: 100%;
@@ -937,6 +938,51 @@ span {
   .container .col-11 {
     width: 91.6666666667%; }
   .container .col-12 {
+    width: 100%; }
+
+.container-16 {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row; }
+  .container-16:before, .container-16:after {
+    content: "";
+    display: table; }
+  .container-16:after {
+    clear: both; }
+  .container-16 {
+    zoom: 1; }
+  .container-16 .col-1 {
+    width: 6.25%; }
+  .container-16 .col-2 {
+    width: 12.5%; }
+  .container-16 .col-3 {
+    width: 18.75%; }
+  .container-16 .col-4 {
+    width: 25%; }
+  .container-16 .col-5 {
+    width: 31.25%; }
+  .container-16 .col-6 {
+    width: 37.5%; }
+  .container-16 .col-7 {
+    width: 43.75%; }
+  .container-16 .col-8 {
+    width: 50%; }
+  .container-16 .col-9 {
+    width: 56.25%; }
+  .container-16 .col-10 {
+    width: 62.5%; }
+  .container-16 .col-11 {
+    width: 68.75%; }
+  .container-16 .col-12 {
+    width: 75%; }
+  .container-16 .col-13 {
+    width: 81.25%; }
+  .container-16 .col-14 {
+    width: 87.5%; }
+  .container-16 .col-15 {
+    width: 93.75%; }
+  .container-16 .col-16 {
     width: 100%; }
 
 img {
@@ -1196,7 +1242,8 @@ a:hover {
 
 .use-dash {
   background: linear-gradient(to right, #1492e5 0%, #1550a2 100%);
-  width: 100%; }
+  width: 100%;
+  height: 500px; }
 
 .use-dash h1 {
   font-weight: 500;
@@ -1206,10 +1253,31 @@ a:hover {
   font-size: 16px; }
 
 .use-dash-left {
-  width: 50%; }
+  width: 50%;
+  margin-left: 60px; }
+
+.use-dash-left p {
+  line-height: 1.7; }
 
 .services {
   width: 50%; }
+
+.blue-header.numbers {
+  font-size: 54px;
+  font-weight: 200;
+  font-family: "Montserrat", sans-serif;
+  margin: 0px; }
+
+.transactions {
+  font-family: "Montserrat", sans-serif;
+  color: #031841;
+  font-size: 12px;
+  margin-top: 50px; }
+
+.grid-item.methods img {
+  height: 100px;
+  width: 140px;
+  padding-left: 50px; }
 
 .fourth {
   width: 90%;
@@ -1225,6 +1293,7 @@ a:hover {
   /* W3C */ }
 
 .footer-top {
+  width: 100%;
   font-size: 14px;
   font-weight: 400;
   height: 499px;
@@ -1232,12 +1301,14 @@ a:hover {
   background: -webkit-radial-gradient(center, ellipse cover, #134393 0%, #0a2b69 100%);
   background: radial-gradient(ellipse at center, #134393 0%, #0a2b69 100%); }
 
-.grid-item {
-  border: 2px solid red; }
+.links {
+  width: 95%;
+  padding: 30px 60px 0px 60px; }
 
-body > div > div.footer-top.text-white > div > div:nth-child(5) {
-  width: 100%;
-  margin: 0px;
-  padding: 0px; }
+.container-16.padding {
+  padding-top: 40px; }
+
+.map button {
+  width: 237px; }
 
 /*# sourceMappingURL=styles.css.map */

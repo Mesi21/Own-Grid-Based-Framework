@@ -270,6 +270,7 @@ a:hover {
 .use-dash {
   background: linear-gradient(to right, #1492e5 0%, #1550a2 100%);
   width: 100%;
+  height: 500px;
 }
 .use-dash h1{
   font-weight: 500;
@@ -280,9 +281,30 @@ a:hover {
 }
 .use-dash-left {
   width: 50%;
+  margin-left: 60px;
+}
+.use-dash-left p {
+  line-height: 1.7;
 }
 .services{
   width: 50%;
+}
+.blue-header.numbers {
+  font-size: 54px;
+  font-weight: 200;
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+.transactions {
+  font-family: "Montserrat", sans-serif;
+  color: #031841;
+  font-size: 12px;
+  margin-top: 50px;
+}
+.grid-item.methods img{
+  height: 100px;
+  width: 140px;
+  padding-left: 50px;
 }
 .fourth{
   width: 90%;
@@ -295,6 +317,7 @@ a:hover {
   background:  linear-gradient(to bottom, #134495 0%, #07215e 100%);  /* W3C */
 }
 .footer-top{
+  width: 100%;
   font-size:14px;
   font-weight:400;
   height:499px;
@@ -302,11 +325,14 @@ a:hover {
   background: -webkit-radial-gradient(center, ellipse cover, #134393 0%, #0a2b69 100%);
   background: radial-gradient(ellipse at center, #134393 0%, #0a2b69 100%);
 }
-.grid-item{
-  border: 2px solid red;
+
+.links {
+  width: 95%;
+  padding: 30px 60px 0px 60px;
 }
-body > div > div.footer-top.text-white > div > div:nth-child(5){
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
+.container-16.padding {
+  padding-top: 40px;
+}
+.map button{
+  width: 237px;
 }

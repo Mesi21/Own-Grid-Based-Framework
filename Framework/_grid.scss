@@ -33,6 +33,7 @@
   padding-left: 10px; 
   padding-right: 10px; 
   float: left;
+  width: 100%;
 } 
 
 .container {
@@ -77,4 +78,59 @@
     .col-12 {
       width: percentage(12/12);
     }
+}
+.container-16 {
+  width: 100%; 
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  @include clearfix;
+  .col-1 { 
+    width: percentage(1/16);
+  }
+  .col-2 {
+    width: percentage(2/16);
+  }
+  .col-3 { 
+    width: percentage(3/16);
+  }
+  .col-4 { 
+    width: percentage(4/16);
+  }
+  .col-5 { 
+    width: percentage(5/16);
+  }
+  .col-6 { 
+    width: percentage(6/16);
+  }
+  .col-7 { 
+    width: percentage(7/16);
+  }
+  .col-8 { 
+    width: percentage(8/16);
+  }
+  .col-9 { 
+    width: percentage(9/16);
+  }
+  .col-10 { 
+    width: percentage(10/16);
+  }
+  .col-11 { 
+    width: percentage(11/16);
+  }
+  .col-12 {
+    width: percentage(12/16);
+  }
+  .col-13 {
+    width: percentage(13/16);
+  }
+  .col-14 {
+    width: percentage(14/16);
+  }
+  .col-15 {
+    width: percentage(15/16);
+  }
+  .col-16 {
+    width: percentage(16/16);
+  }
 }
