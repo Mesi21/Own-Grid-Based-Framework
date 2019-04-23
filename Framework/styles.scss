@@ -210,6 +210,7 @@ img{
   background: -moz-linear-gradient(to right, #1492e5 0%, #1550a2 100%); /* FF3.6+ */ 
   background: linear-gradient(to right, #1492e5 0%, #1550a2 100%); /* W3C */ 
   width: 100%;
+  padding-left: 100px;
 }
 .app button {
   background-color: transparent;
@@ -218,7 +219,8 @@ img{
   border: 1px solid #fff;
   text-align: center;
   height: 38px;
-  min-width: 200px;
+  width: 200px;
+  margin-left: 40px;
 }
 .app a {
   font-weight: 500;
@@ -231,9 +233,39 @@ img{
   line-height: 1.5;
   font-size: 14px;
 }
+.cell-phone{
+  width: 50%;
+  align-items: center;
+}
 .cell-phone img {
-  height: 500px;
+  height: 505px;
   max-width: 100%;
   width: 450px;
-
+  margin-bottom: 5px;
+}
+.left-side{
+  width: 50%;
+  align-items: center;
+}
+.text-white.text-left{
+  margin-left: 40px;
+}
+.third-container{
+  height: 320px;
+}
+.third{
+  width: 50%;
+}
+.third img{
+  height:300px;
+}
+.third button{
+  background: #278EE0;
+  border-color: #278EE0;
+  border-radius: 8px;
+  width: 200px;
+  height: 38px;
+}
+.third-container.d-flex.flex-direction-row{
+  background-color: #E0F1FC;
 }
