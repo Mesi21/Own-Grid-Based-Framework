@@ -1087,6 +1087,10 @@ a:hover {
 .dropdown a:hover {
   text-decoration: none; }
 
+.dropdown-content a:hover {
+  text-decoration: none;
+  color: black; }
+
 body > div > div.nav-bar > div.right > div:nth-child(1) > a:hover::after,
 body > div > div.nav-bar > div.right > div:nth-child(2) > a:hover::after,
 body > div > div.nav-bar > div.right > div:nth-child(3) > a:hover::after,
@@ -1097,18 +1101,23 @@ body > div > div.nav-bar > div.right > div:nth-child(5) > a:hover::after {
   color: #278EE0;
   background-color: #278EE0;
   margin-top: 5px;
-  height: 2px;
-  transform: all 0.5s ease; }
+  height: 2px; }
+
+.dropdown-content:hover {
+  background-color: white; }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: transparent;
   min-width: 160px;
-  margin-top: 50px;
   z-index: 1;
   width: 100px;
-  padding: 10px; }
+  padding: 10px;
+  transition-property: background-color;
+  transition-delay: 0;
+  transition-duration: 0.5s;
+  transition-timing-function: ease; }
 
 .right {
   float: right;
