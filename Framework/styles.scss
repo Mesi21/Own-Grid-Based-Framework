@@ -116,6 +116,20 @@ a:hover {
 .dropdown a:hover {
   text-decoration: none;
 }
+body > div > div.nav-bar > div.right > div:nth-child(1) > a:hover::after,
+body > div > div.nav-bar > div.right > div:nth-child(2) > a:hover::after,
+body > div > div.nav-bar > div.right > div:nth-child(3) > a:hover::after,
+body > div > div.nav-bar > div.right > div:nth-child(4) > a:hover::after,
+body > div > div.nav-bar > div.right > div:nth-child(5) > a:hover::after
+{
+  display: block;
+  content: "";
+  color:#278EE0;
+  background-color:#278EE0; 
+  margin-top: 5px;
+  height: 2px;
+  transform: all 0.5s ease;
+}
 .dropdown-content {
   display: none;
   position: absolute;
@@ -123,6 +137,8 @@ a:hover {
   min-width: 160px;
   margin-top: 50px;
   z-index: 1;
+  width: 100px;
+  padding: 10px;
 }
 .right {
   float: right;
