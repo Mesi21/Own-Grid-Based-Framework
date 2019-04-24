@@ -368,3 +368,57 @@ body > div > div.map > div > div.col-8 > div > img{
   border-left: 1px solid rgba(200, 200, 255, 0.15);
   border-right: 1px solid rgba(200, 200, 255, 0.15);
 }
+.footer-bottom {
+  background-color: #031841;
+  height: 220px;
+}
+.container.bottom {
+  width: 79%;
+  margin: 0px auto 0px auto;
+}
+.grid-item.bottom p {
+  font-size: 12px;
+}
+.container.bottom div {
+  margin-top: 20px;
+}
+.grid-item.bottom.social {
+  border-left: 1px solid rgba(200, 200, 255, 0.15);
+  border-right: 1px solid rgba(200, 200, 255, 0.15);
+  height: 140px;
+}
+.grid-item.bottom i {
+  margin: 0px 6px;
+}
+.grid-item.bottom div, .grid-item.bottom p, .grid-item.bottom input {
+  margin-left: 15px;
+}
+.grid-item.bottom div, .grid-item.bottom p {
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+.grid-item.bottom input {
+  transition: all 0.3s ease;
+  font-family: "Open Sans", sans-serif;
+  border-color: #fff;
+  background: #fff;
+  height: 40px;
+  font-size: 14px;
+  padding-right: 50px;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 290px;
+  padding-left: 10px;
+  margin: 0px 0px 0px 13px;
+}
+.grid-item.bottom.sign-up div label {
+  font-size: 10px;
+  line-height: 15px;
+  padding-top: 8px;
+}
+.grid-item.bottom.sign-up div input {
+  width: 20px;
+  margin-left: 0px;
+}
