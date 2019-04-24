@@ -1085,7 +1085,8 @@ a:hover {
   font-weight: 600; }
 
 .dropdown a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #454545; }
 
 .dropdown-content a:hover {
   text-decoration: none;
@@ -1222,6 +1223,13 @@ body > div > div.nav-bar > div.right > div:nth-child(5) > a:hover::after {
   width: 200px;
   margin-left: 40px; }
 
+.map button:hover, .footer-top button:hover {
+  color: #278EE0;
+  border: 1px solid #278EE0; }
+
+.map a:hover, .footer-top button a:hover {
+  color: #278EE0; }
+
 .app a {
   font-weight: 500;
   text-decoration: none; }
@@ -1255,6 +1263,14 @@ body > div > div.nav-bar > div.right > div:nth-child(5) > a:hover::after {
 
 .third img {
   height: 300px; }
+
+.downloads div {
+  height: 170px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,  border-color 0.15s ease-in-out,  box-shadow 0.15s ease-in-out; }
+
+.downloads div:hover {
+  box-shadow: 3px 3px 3px 3px #1550a2;
+  border-radius: 8px; }
 
 .third button {
   background: #278EE0;
