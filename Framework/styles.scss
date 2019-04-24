@@ -198,10 +198,13 @@ a:hover {
   margin-top: 50px;
   font-size: 28px;
 }
+.container-two{
+  height: 280px;
+}
 .container-two p{
-  width: 45%;
+  width: 50%;
   margin: auto;
-  text-align: justify;
+  text-align: center;
   font-size: 14px;
 }
 .app {
@@ -301,6 +304,20 @@ a:hover {
   font-size: 12px;
   margin-top: 50px;
 }
+body > div > div.map > div > div.col-4 > div{
+  margin: 60px 0px 0px 100px;
+}
+body > div > div.map > div > div.col-4 > div > h1{
+  line-height: 1.2;
+}
+body > div > div.map > div > div.col-4 > div > button{
+margin-top: 40px;
+}
+body > div > div.map > div > div.col-8 > div > img{
+  max-width: 100%;
+  margin-top: 100px;
+  height: 380px;
+}
 .grid-item.methods img{
   height: 100px;
   width: 140px;
@@ -315,6 +332,7 @@ a:hover {
   background: -webkit-linear-gradient(to bottom, #134495 0%, #07215e 100%); /* Chrome10+, Safari5.1+ */ 
   background: -moz-linear-gradient(to bottom, #134495 0%, #07215e 100%); /* FF3.6+ */ 
   background:  linear-gradient(to bottom, #134495 0%, #07215e 100%);  /* W3C */
+  height: 560px;
 }
 .footer-top{
   width: 100%;
@@ -335,4 +353,18 @@ a:hover {
 }
 .map button{
   width: 237px;
+}
+.links{
+  margin: 0px 53px;
+}
+.links img{
+  width: 200px;
+}
+.links h5{
+  font-size: 18px;
+  line-height: 34px;
+}
+.grid-item.text-left.faq{
+  border-left: 1px solid rgba(200, 200, 255, 0.15);
+  border-right: 1px solid rgba(200, 200, 255, 0.15);
 }
