@@ -1430,7 +1430,7 @@ body > div > div.nav-bar > div.right > div:nth-child(5) > a:hover::after {
 .text-white.text-left {
   margin-left: 40px; }
 
-.third {
+.third.connect {
   width: 50%; }
 
 .third img {
@@ -1729,8 +1729,15 @@ body > div > div.map > div > div.col-8 > div > img {
     height: 0px;
     width: 0px; }
 
-  .third {
+  .third.buy-dash {
+    width: 100%;
     margin: 0px;
-    padding: 0px; } }
+    padding: 0px; }
+
+  .third-container {
+    width: 100%; }
+
+  .third.connect {
+    width: 1%; } }
 
 /*# sourceMappingURL=styles.css.map */
