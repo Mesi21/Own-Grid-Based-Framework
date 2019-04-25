@@ -1621,7 +1621,10 @@ body > div > div.map > div > div.col-8 > div > img {
     flex-direction: row;
     background-color: white;
     height: 50px;
-    text-align: center; }
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    z-index: 2; }
 
   .dropdown.grid-item a {
     color: #787878; }
@@ -1661,7 +1664,73 @@ body > div > div.map > div > div.col-8 > div > img {
   .blue.d-flex.flex-direction-row {
     width: 100%;
     border-bottom-right-radius: 0px;
-    border-top-left-radius: 0px;
-    display: block; } }
+    border-top-left-radius: 0px; }
+
+  .blue.d-flex.flex-direction-row {
+    flex-direction: column !important;
+    height: 400px; }
+
+  .blue-column.d-flex.flex-direction-row.first {
+    margin: 0px;
+    padding: 0px;
+    width: 85%;
+    margin: auto; }
+
+  .blue-column.d-flex.flex-direction-row.first i {
+    margin: 80px 0px 0px 80px;
+    padding: 0px; }
+
+  .blue-column.d-flex.flex-direction-row.second {
+    width: 85%;
+    max-width: 85%;
+    margin: auto; }
+
+  .blue-column.d-flex.flex-direction-row br {
+    display: none; }
+
+  .vertical {
+    width: 85%;
+    height: 1px;
+    margin: auto; }
+
+  .container-two h1, .container-two p {
+    text-align: left;
+    margin: 30px 0px 0px 140px;
+    padding: 0px;
+    width: 70%; }
+
+  .app.d-flex.flex-direction-row.align-center {
+    flex-direction: column !important;
+    height: 895px; }
+
+  .cell.d-flex.flex-direction-column {
+    margin-bottom: 50px;
+    width: 100%; }
+
+  .downloads div {
+    height: 190px;
+    width: 100%;
+    margin: 0px; }
+
+  .downloads {
+    width: 100%; }
+
+  .left-side.text-center {
+    width: 100%; }
+
+  .cell button {
+    width: 400px; }
+
+  #para {
+    margin-top: 30px; }
+
+  .third img {
+    display: none;
+    height: 0px;
+    width: 0px; }
+
+  .third {
+    margin: 0px;
+    padding: 0px; } }
 
 /*# sourceMappingURL=styles.css.map */
