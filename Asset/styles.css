@@ -1406,10 +1406,8 @@ body > div > div.nav-bar > div.right > div:nth-child(5) > a:hover::after {
 
 .map button:hover, .footer-top button:hover {
   color: #278EE0;
-  border: 1px solid #278EE0; }
-
-.map a:hover, .footer-top button a:hover {
-  color: #278EE0; }
+  border: 1px solid #278EE0;
+  cursor: pointer; }
 
 .app a {
   font-weight: 500;
@@ -1451,7 +1449,8 @@ body > div > div.nav-bar > div.right > div:nth-child(5) > a:hover::after {
 
 .downloads div:hover {
   box-shadow: 3px 3px 3px 3px #1550a2;
-  border-radius: 8px; }
+  border-radius: 8px;
+  cursor: pointer; }
 
 .third button {
   background: #278EE0;
@@ -1483,6 +1482,9 @@ body > div > div.nav-bar > div.right > div:nth-child(5) > a:hover::after {
 
 .use-dash-left p {
   line-height: 1.7; }
+
+.use-dash-left button:hover {
+  cursor: pointer; }
 
 .services {
   width: 50%; }
@@ -1540,6 +1542,9 @@ body > div > div.map > div > div.col-8 > div > img {
   background: -moz-radial-gradient(center, ellipse cover, #134393 0%, #0a2b69 100%);
   background: -webkit-radial-gradient(center, ellipse cover, #134393 0%, #0a2b69 100%);
   background: radial-gradient(ellipse at center, #134393 0%, #0a2b69 100%); }
+
+.cell button:hover {
+  cursor: pointer; }
 
 .links {
   width: 95%;
@@ -1623,7 +1628,8 @@ body > div > div.map > div > div.col-8 > div > img {
   display: none; }
 
 .third.buy-dash button:hover {
-  background-color: #1f6eaf; }
+  background-color: #1f6eaf;
+  cursor: pointer; }
 
 @media (max-width: 576px) {
   .left, .right {
@@ -1634,10 +1640,10 @@ body > div > div.map > div > div.col-8 > div > img {
     display: flex;
     flex-direction: row;
     background-color: white;
-    height: 40px;
-    width: 100%;
+    height: 50px;
     text-align: center;
     position: fixed;
+    width: 100%;
     top: 0px;
     z-index: 2; }
 
@@ -1646,16 +1652,16 @@ body > div > div.map > div > div.col-8 > div > img {
 
   .hidden-nav-bar img {
     max-width: 100%;
-    height: 40px;
-    width: 60px;
+    height: 50px;
+    width: 90px;
     margin: auto; }
 
   .hidden-nav-bar i {
     color: #278EE0; }
 
   .dropdown-content {
-    width: 65px;
-    font-size: 8px;
+    width: 80px;
+    font-size: 10px;
     padding: 0px; }
 
   .dropdown a {
@@ -1671,10 +1677,10 @@ body > div > div.map > div > div.col-8 > div > img {
     padding-top: 150px; }
 
   .title h1 {
-    font-size: 25px; }
+    font-size: 30px; }
 
   .title p {
-    font-size: 12px; }
+    font-size: 14px; }
 
   .title {
     margin-top: 50px;
@@ -1683,23 +1689,18 @@ body > div > div.map > div > div.col-8 > div > img {
   .blue.d-flex.flex-direction-row {
     width: 100%;
     border-bottom-right-radius: 0px;
-    border-top-left-radius: 0px;
+    border-top-left-radius: 0px; }
+
+  .blue.d-flex.flex-direction-row {
     flex-direction: column !important;
     height: 400px; }
 
   .blue-column.d-flex.flex-direction-row.first {
     margin: 0px;
-    padding: 10px;
+    padding-top: 20px;
+    max-width: 85%;
     width: 85%;
     margin: auto; }
-
-  .blue-column.d-flex.flex-direction-row.first h1,
-  .blue-column.d-flex.flex-direction-row.second h1 {
-    font-size: 25px; }
-
-  .blue-column.d-flex.flex-direction-row.first p,
-  .blue-column.d-flex.flex-direction-row.second p {
-    font-size: 14px; }
 
   .blue-column.d-flex.flex-direction-row.first i {
     margin: 80px 0px 0px 80px;
@@ -1708,8 +1709,7 @@ body > div > div.map > div > div.col-8 > div > img {
   .blue-column.d-flex.flex-direction-row.second {
     width: 85%;
     max-width: 85%;
-    margin: auto;
-    padding: 10px; }
+    margin: auto; }
 
   .blue-column.d-flex.flex-direction-row br {
     display: none; }
@@ -1719,32 +1719,29 @@ body > div > div.map > div > div.col-8 > div > img {
     height: 1px;
     margin: auto; }
 
-  .container-two {
-    height: 250px; }
-
   .container-two h1, .container-two p {
     text-align: left;
-    margin: 30px 0px 0px 20px;
+    margin: 30px 0px 0px 40px;
     padding: 0px;
-    width: 100%; }
+    width: 90%; }
 
   .app.d-flex.flex-direction-row.align-center {
     flex-direction: column !important;
-    height: 660px;
-    width: 100%; }
+    height: 895px; }
 
   .cell.d-flex.flex-direction-column {
-    display: none; }
-
-  .cell-phone {
+    margin-bottom: 50px;
     width: 100%; }
 
-  .cell-phone img {
-    width: 80%;
-    margin-top: 5px; }
+  .cell.d-flex.flex-direction-column button {
+    width: 100%;
+    padding: 0px;
+    margin: 0px; }
 
   .downloads div {
-    display: none; }
+    height: 190px;
+    width: 100%;
+    margin: 0px; }
 
   .downloads {
     width: 100%; }
@@ -1752,13 +1749,22 @@ body > div > div.map > div > div.col-8 > div > img {
   .left-side.text-center {
     width: 100%; }
 
+  .cell-phone {
+    width: 100%; }
+
+  .cell-phone img {
+    width: 260px;
+    overflow: hidden; }
+
   .cell button {
-    width: 90%;
-    margin: 0px; }
+    width: 400px; }
+
+  .cell button:hover {
+    width: 400px;
+    cursor: pointer; }
 
   #para {
-    margin-top: 30px;
-    width: 100%; }
+    margin-top: 10px; }
 
   .third img {
     display: none;
@@ -1768,47 +1774,40 @@ body > div > div.map > div > div.col-8 > div > img {
   .third.buy-dash {
     width: 100%;
     margin: 0px;
-    padding: 20px; }
+    padding: 60px;
+    height: 400px; }
 
   .third.buy-dash button {
     display: block !important;
-    width: 350px;
-    margin: 0px auto 10px auto; }
+    width: 300px;
+    margin-bottom: 10px; }
 
   .third-container {
     width: 100%; }
 
   .third.connect {
-    width: 1%;
-    height: 0px; }
+    width: 1%; }
 
   .use-dash {
     flex-direction: column !important;
-    height: 850px;
-    width: 100%; }
-
-  .use-dash-left {
-    width: 100%; }
-
-  .use-dash-left button {
-    width: 90%;
-    margin: auto; }
+    height: 920px; }
 
   #last {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    padding-left: 10px; }
 
-  .grid-item.methods {
-    width: 100%; }
+  .grid-item.methods.serv {
+    margin-left: 0px; }
 
   .container.container-sm.container-md.services {
     width: 100%; }
 
-  .grid-item.methods.serv {
-    margin-left: 50px; }
+  .grid-item.methods {
+    margin-top: 10px; }
 
   .grid-item.methods.serv p {
-    padding-left: 15px; }
+    padding-left: 50px; }
 
   .map {
     height: 450px; }
@@ -1827,43 +1826,66 @@ body > div > div.map > div > div.col-8 > div > img {
   body > div > div.map > div > div.col-4 > div {
     margin: 20px 0px 0px 20px; }
 
+  body > div > div:nth-child(7) {
+    height: 550px;
+    width: 100%; }
+
+  body > div > div:nth-child(7) > div {
+    text-align: left; }
+
   .vendors {
     width: 100%; }
+
+  body > div > div.map > div > div.col-4 > div > p {
+    height: 120px; }
 
   .vendors button {
     width: 100%;
     margin: 0px;
     padding: 0px; }
 
+  body > div > div:nth-child(9) {
+    margin-top: 0px;
+    height: 550px;
+    width: 100%; }
+
   .footer-top {
-    height: 1061px; }
+    height: 1061px;
+    width: 100%;
+    margin: 0px; }
 
   .faq {
     padding: 15px 0px;
     border-top: 1px solid rgba(200, 200, 255, 0.15);
     border-bottom: 1px solid rgba(200, 200, 255, 0.15);
     border-left: 0px !important;
-    border-right: 0px !important; }
+    border-right: 0px !important;
+    margin: 0px; }
 
   body > div > div.footer-top.text-white > div > div > div.col-5.col-md-16.col-sm-16 > div {
     width: 100%;
     text-align: center !important;
-    padding: 20px 0px; }
+    padding: 10px 0px; }
 
   body > div > div.footer-top.text-white > div > div > div.col-5.col-md-16.col-sm-16 > div > button {
     width: 100%;
-    margin: 0px; }
+    margin: 0px;
+    padding: 0px; }
 
   .container.bottom {
     flex-direction: column-reverse !important;
     width: 100%; }
 
   .footer-bottom {
-    height: 500px; }
+    height: 600px; }
 
   .grid-item.bottom {
     margin: auto;
-    width: 100%; }
+    width: 100%;
+    border-bottom: 1px solid rgba(200, 200, 255, 0.15); }
+
+  .grid-item.bottom div {
+    height: 100px; }
 
   .col-4.col-md-12.col-sm-12 {
     width: 100%;
@@ -1988,6 +2010,10 @@ body > div > div.map > div > div.col-8 > div > img {
   .cell button {
     width: 400px; }
 
+  .cell button:hover {
+    width: 400px;
+    cursor: pointer; }
+
   #para {
     margin-top: 30px; }
 
@@ -2043,6 +2069,13 @@ body > div > div.map > div > div.col-8 > div > img {
   body > div > div.map > div > div.col-4 > div {
     margin: 20px 0px 0px 20px; }
 
+  body > div > div:nth-child(7) {
+    height: 550px;
+    width: 100%; }
+
+  body > div > div:nth-child(7) > div {
+    text-align: left; }
+
   .vendors {
     width: 100%; }
 
@@ -2050,6 +2083,10 @@ body > div > div.map > div > div.col-8 > div > img {
     width: 100%;
     margin: 0px;
     padding: 0px; }
+
+  body > div > div:nth-child(9) {
+    height: 550px;
+    width: 100%; }
 
   .footer-top {
     height: 1061px; }
