@@ -5,5 +5,5 @@ In this project We've cloned the **[DASH](https://www.dash.org/)** webpage using
 _We have recreated the basic structure of the page without any ads and interactive elements._
 ---
 ##Contributors:
-	[Molnar Emese](https://github.com/Mesi21)
+	[Molnar Emese](https://github.com/Mesi21),
 	[Rodolfo Jose Llinas](https://github.com/RadiactiveJesus)
