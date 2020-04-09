@@ -1,7 +1,6 @@
 <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 
-# Our framework project-Newsweek.
-=================================
+# Our framework project
 
 In this project We've cloned the **[DASH](https://www.dash.org/)** webpage using our own framework.
 ---
