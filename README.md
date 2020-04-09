@@ -3,6 +3,9 @@
 # Our framework project
 
 In this project We've cloned the **[DASH](https://www.dash.org/)** webpage using our own framework.
+
+![screenshot](Asset/img/dash-screen.png)
+
 ---
 _We have recreated the basic structure of the page without any ads and interactive elements._
 ---
