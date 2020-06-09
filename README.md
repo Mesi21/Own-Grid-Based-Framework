@@ -29,7 +29,14 @@ _We have recreated the basic structure of the page without any ads and interacti
 
 ## Contributors:
 
-	[Molnar Emese](https://github.com/Mesi21),
-	[Rodolfo Jose Llinas](https://github.com/RadiactiveJesus)
+- [Molnar Emese](https://github.com/Mesi21) :
+  
+  - [Email:](mailto:mse212002@gmail.com) - mse212002@gmail.com
+  - [Portfolio]()
+  - [LinkedIn](https://www.linkedin.com/in/emesemesimolnar/).  
+  - [Twitter](https://twitter.com/buksimesi21) 
+  - [Angel List]()
+  
+- [Rodolfo Jose Llinas](https://github.com/RadiactiveJesus)
 
 ### If you like this project don't forgot to support us by giving a :star: 
