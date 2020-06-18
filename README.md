@@ -39,7 +39,7 @@ _We have recreated the basic structure of the page without any ads and interacti
   - [Portfolio]()
   - [LinkedIn](https://www.linkedin.com/in/emesemesimolnar/).  
   - [Twitter](https://twitter.com/buksimesi21) 
-  - [Angel List]()
+  - [AngelList]()
   
 - [Rodolfo Jose Llinas](https://github.com/RadiactiveJesus)
 
